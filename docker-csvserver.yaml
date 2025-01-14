@@ -1,0 +1,14 @@
+#Part II: Docker Compose for csvserver
+version: '3.8'
+services:
+  csvserver:
+    image: infracloudio/csvserver:latest
+    container_name: csvserver
+    ports:
+      - "9393:9300"
+    environment:
+      - CSVSERVER_BORDER=Orange
+    volumes:
+      - ./inputFile:/csvserver/inputFile
+
+  
