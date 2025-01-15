@@ -15,7 +15,6 @@ Prometheus Installation with Docker
 ## Files Inlcude
 docker-csvserver.yaml
 docker-prometheus.yaml
-Dockerfile
 promotheus.yaml
 inputfile.sh
 csvserver.env
